@@ -17,12 +17,16 @@ const styles = StyleSheet.create({
         fontSize: 16,
         color: '#5c5e62'
     },
-
     image:{
         width: '100%',
         height: '100%',
         resizeMode: 'cover',
         position: 'absolute',
+    },
+    buttonContainer: {
+        width: '100%',
+        position: 'absolute',
+        bottom: 50,
     }
 });
 
